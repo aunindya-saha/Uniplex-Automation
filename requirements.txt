@@ -1,0 +1,14 @@
+
+# Core automation packages
+selenium
+webdriver-manager
+
+# Load environment variables from .env
+python-dotenv
+
+# Optional: HTTP utilities (used in debugging or future features)
+requests
+
+# Small helpers
+tqdm
+
