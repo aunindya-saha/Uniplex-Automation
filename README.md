@@ -1,4 +1,4 @@
-Clone this project and run these commands line in the terminal. 
+Clone this project and run these command lines in the terminal. 
 
 python -m venv .venv
 
