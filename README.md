@@ -2,7 +2,7 @@ Clone this project and run these command lines in the terminal.
 
 python -m venv .venv
 
-.\.venv\Scripts\Activate.ps1
+.\\.venv\Scripts\Activate.ps1
 
 "# if Activation is blocked, allow for this session:"
 
