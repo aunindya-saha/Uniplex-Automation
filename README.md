@@ -1,15 +1,44 @@
-Clone this project and run these command lines in the terminal. 
+# Uniplex Project
 
+A streamlined automation tool designed for Uniplex Faculty Evaluation. Follow the steps below to set up your local development environment and get started.
+
+---
+
+## 🛠 Prerequisites
+
+Ensure you have **Python 3.x** installed on your system. You can verify this by running `python --version` in your terminal.
+
+## 🚀 Getting Started
+
+### 1. Clone & Environment Setup
+First, create a virtual environment to isolate the project dependencies:
+```powershell
+# Create the virtual environment
 python -m venv .venv
 
-.\\.venv\Scripts\Activate.ps1
-
-"# if Activation is blocked, allow for this session:"
-
-"# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process -Force"
-
+# Activate the virtual environment
+.\.venv\Scripts\Activate.ps1
+```
+Note: If the activation script is blocked by Windows, run the following command to allow it for the current session:
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process -Force
+```
+### 2. Install Dependencies
+Once the environment is active, install the required packages:
+```powershell
 pip install -r .\requirements.txt
+```
+### 3. Configuration
+The script requires authentication via a .env file.
 
-Give your username and id in the .env file and run the script:
+Open the .env file in the project root.
 
+Update the following fields with your credentials:
+
+USERNAME: <br> 
+PASSWORD: 
+### 🏃 Execution
+To launch the project, simply run the main script:
+```powershell
 python uniplex.py
+```
