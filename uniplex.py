@@ -41,7 +41,7 @@ class FacultyEvaluationBot:
         Args:
             headless (bool): Run browser in headless mode (no UI)
         """
-        self.student_id = os.getenv('STUDENT_ID')
+        self.student_id = os.getenv('USERNAME')
         self.password = os.getenv('PASSWORD')
         
         # Validate credentials
