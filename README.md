@@ -1,6 +1,6 @@
 # Uniplex Project
 
-A streamlined automation tool designed for efficiency. Follow the steps below to set up your local development environment and get started.
+A streamlined automation tool designed for Uniplex Faculty Evaluation. Follow the steps below to set up your local development environment and get started.
 
 ---
 
